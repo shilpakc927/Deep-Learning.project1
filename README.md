@@ -261,8 +261,28 @@ This template supports:
 - `dnnresult.html` - html second page for uploading image and prediction
 - `hmnist_8_8_L.csv` - dataset
 - `skin_disease_model.h5` - saved model for flask working
-- `Screenshot 1.png, Screenshot 2.png, Screenshot 3.png ,Screenshot 4.png` - step by step Images of project
 ---
+
+## 📸 Project Screenshots
+
+Here are some screenshots demonstrating the application workflow:
+
+### 🟢 Dashboard Page
+
+![Dashboard](screenshots/screenshot1.png)
+
+### 🖼️ Uploading an Image
+
+![Upload](screenshots/screenshot2.png)
+
+### ✅ Prediction Result
+
+![Prediction](screenshots/screenshot3.png)
+
+### ✅ Exit
+
+![completion message](screenshots/screenshot3.png)
+
 ## 📩 Contact
 
 **Shilpa K C**  
