@@ -20,6 +20,7 @@ This project is an end-to-end skin disease classification system built with:
 - [Workflow Summery](#workflow-summery)
 - [Technologies Used](#technologies-used)
 - [License](#license)
+- [Files Included](#files-included)
 
 ---
 ## 🎯 Project Overview
@@ -262,6 +263,12 @@ This template supports:
 - `skin_disease_model.h5` - saved model for flask working
 - `Screenshot 1.png, Screenshot 2.png, Screenshot 3.png ,Screenshot 4.png` - step by step Images of project
 ---
+## 📩 Contact
+
+**Shilpa K C**  
+[LinkedIn](https://www.linkedin.com/in/shilpa-kc) | [Email](shilpakcc@gmail.com)
+
+For questions or suggestions, feel free to reach out.
 
 
    
