@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    h1 {
+      margin-top: 40px;
+      color: #fff;
+      font-size: 36px;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .card {
+      background-color: #000;
+      color: #fff;
+      padding: 30px 35px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      margin-top: 20px;
+      width: 340px;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    input[type="file"] {
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .filename {
+      font-size: 13px;
+      color: #ccc;
+      margin: 5px 0 15px;
+      font-style: italic;
+    }
+
+    button {
+      padding: 10px 25px;
+      font-size: 15px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      color: white;
+      font-weight: bold;
+      margin: 8px 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(to right, #4a00e0, #8e2de2);
+    }
+
+    img {
+      width: 280px;
+      border-radius: 12px;
+      margin: 15px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .prediction {
+      background-color: #fff;
+      color: #0b3d91;
+      padding: 14px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 15px;
+      border: 2px solid #4a00e0;
+      box-shadow: 0 4px 15px rgba(74, 0, 224, 0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #eee;
+    }
+  </style>
+
+  <script>
+    function handleExit() {
+      document.open();
+      document.write('<!DOCTYPE html><html><head><title>Exit</title><style>body{display:flex;justify-content:center;align-items:center;height:100vh;font-family:sans-serif;font-size:20px;background-color:#111;color:#0f0;}</style></head><body>✅ Prediction completed. Thank you!</body></html>');
+      document.close();
+    }
+
+    function showFileName(input) {
+      const fileInfo = document.getElementById('filename');
+      fileInfo.textContent = input.files.length > 0 ? `Selected: ${input.files[0].name}` : '';
+    }
+  </script>
+</head>
+
+<body>
+  <h1>🧪 Prediction Result</h1>
+
+  <div class="card">
+    <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*" onchange="showFileName(this)" required><br>
+      <div id="filename" class="filename"></div>
+      <button type="submit">🔍 Predict</button>
+    </form>
+
+    {% if image_file %}
+      <img src="{{ url_for('static', filename=image_file) }}" alt="Predicted Image">
+      <div class="prediction">🩺 Predicted Skin Disease: <span style="color:#4a00e0">{{ prediction }}</span></div>
+    {% endif %}
+
+    <button onclick="handleExit()">🚪 Exit</button>
+  </div>
+
+  <footer>
+    &copy; 2025 Skin Classifier AI | Built with 💙
+  </footer>
+</body>
+</html>
