@@ -242,20 +242,6 @@ This template supports:
  
 ---
 
-✅ **How to use this:**
-- Copy everything **inside the fences above** (including the triple backticks at the start and end).
-- Save it as:
-  README.md
-- Place it in your project folder.
-- Commit and push to GitHub.
-
-✅ This is **one single README file** describing:
-- Notebook
-- Flask
-- Two HTML pages
-- Complete workflow
-
----
 ## 📁 Files Included
 - `dnn skin disease dataset.ipynb` – jupyter nootebook  file with  raw data
 - `dnnfront.html` – html introduction page
@@ -279,6 +265,20 @@ This template supports:
 
 For questions or suggestions, feel free to reach out.
 
+✅ **How to use this:**
+- Copy everything **inside the fences above** (including the triple backticks at the start and end).
+- Save it as:
+  README.md
+- Place it in your project folder.
+- Commit and push to GitHub.
+
+✅ This is **one single README file** describing:
+- Notebook
+- Flask
+- Two HTML pages
+- Complete workflow
+
+---
 
 
    
