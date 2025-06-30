@@ -21,6 +21,7 @@ This project is an end-to-end skin disease classification system built with:
 - [Technologies Used](#technologies-used)
 - [License](#license)
 - [Files Included](#files-included)
+- [Project Screenshots](#project-screenshots)
 
 ---
 ## 🎯 Project Overview
@@ -272,18 +273,17 @@ Here are some screenshots demonstrating the application workflow:
 [View Dashboard Screenshot](Screenshot%201.png)
 
 
-
 ### 🖼️ Uploading an Image
 
-![Upload](Screenshot%202.png)
+[View Upload Screenshot](Screenshot%202.png)
 
 ### ✅ Prediction Result
 
-![Prediction](Screenshot%203.png)
+[View Prediction Screenshot](Screenshot%203.png)
 
 ### ✅ Exit
 
-![completion message](Screenshot%204.png)
+[View completion message Screenshot](Screenshot%204.png)
 
 ## 📩 Contact
 
