@@ -252,8 +252,16 @@ This template supports:
 - Flask
 - Two HTML pages
 - Complete workflow
----
 
+---
+## 📁 Files Included
+- `dnn skin disease dataset.ipynb` – jupyter nootebook  file with  raw data
+- `dnnfront.html` – html introduction page
+- `dnnresult.html` - html second page for uploading image and prediction
+- `hmnist_8_8_L.csv - dataset
+- `skin_disease_model.h5' - saved model for flask working
+- `Screenshot 1.png, Screenshot 2.png, Screenshot 3.png ,Screenshot 4.png - step by step Images of project
+---
 
 
    
