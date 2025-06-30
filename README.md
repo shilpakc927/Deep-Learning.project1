@@ -263,27 +263,14 @@ This template supports:
 - `hmnist_8_8_L.csv` - dataset
 - `skin_disease_model.h5` - saved model for flask working
 ---
-
 ## 📸 Project Screenshots
 
-Here are some screenshots demonstrating the application workflow:
+- [Dashboard Page](Screenshot%201.png)
+- [Upload Page](Screenshot%202.png)
+- [Prediction Result](Screenshot%203.png)
+- [Thank You Message](Screenshot%204.png)
 
-### 🟢 Dashboard Page
-
-[View Dashboard Screenshot](Screenshot%201.png)
-
-
-### 🖼️ Uploading an Image
-
-[View Upload Screenshot](Screenshot%202.png)
-
-### ✅ Prediction Result
-
-[View Prediction Screenshot](Screenshot%203.png)
-
-### ✅ Exit
-
-[View completion message Screenshot](Screenshot%204.png)
+---
 
 ## 📩 Contact
 
@@ -292,11 +279,6 @@ Here are some screenshots demonstrating the application workflow:
 
 For questions or suggestions, feel free to reach out.
 
-## 📸 Project Screenshots
 
-- [Dashboard Page](Screenshot%201.png)
-- [Upload Page](Screenshot%202.png)
-- [Prediction Result](Screenshot%203.png)
-- [Thank You Message](Screenshot%204.png)
 
    
