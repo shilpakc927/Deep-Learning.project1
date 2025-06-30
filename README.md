@@ -294,9 +294,9 @@ For questions or suggestions, feel free to reach out.
 
 ## 📸 Project Screenshots
 
-- [Dashboard Page](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%201.png)
-- [Upload Page](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%202.png)
-- [Prediction Result](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%203.png)
-- [Thank You Message](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%204.png)
+- [Dashboard Page](Screenshot%201.png)
+- [Upload Page](Screenshot%202.png)
+- [Prediction Result](Screenshot%203.png)
+- [Thank You Message](Screenshot%204.png)
 
    
