@@ -292,5 +292,11 @@ Here are some screenshots demonstrating the application workflow:
 
 For questions or suggestions, feel free to reach out.
 
+## 📸 Project Screenshots
+
+- [Dashboard Page](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%201.png)
+- [Upload Page](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%202.png)
+- [Prediction Result](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%203.png)
+- [Thank You Message](https://github.com/shilpack927/Deep-Learning.project1/raw/main/Screenshot%204.png)
 
    
