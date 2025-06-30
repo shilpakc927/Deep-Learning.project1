@@ -269,7 +269,8 @@ Here are some screenshots demonstrating the application workflow:
 
 ### 🟢 Dashboard Page
 
-![Dashboard](Screenshot%201.png)
+[View Dashboard Screenshot](Screenshot%201.png)
+
 
 
 ### 🖼️ Uploading an Image
