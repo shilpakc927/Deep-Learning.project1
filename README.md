@@ -269,19 +269,19 @@ Here are some screenshots demonstrating the application workflow:
 
 ### 🟢 Dashboard Page
 
-![Dashboard](screenshots/Screenshot 1.png)
+![Dashboard](screenshots/Screenshot-1.png)
 
 ### 🖼️ Uploading an Image
 
-![Upload](screenshots/screenshot2.png)
+![Upload](screenshots/Screenshot-2.png)
 
 ### ✅ Prediction Result
 
-![Prediction](screenshots/screenshot3.png)
+![Prediction](screenshots/Screenshot-3.png)
 
 ### ✅ Exit
 
-![completion message](screenshots/screenshot3.png)
+![completion message](screenshots/Screenshot-4.png)
 
 ## 📩 Contact
 
