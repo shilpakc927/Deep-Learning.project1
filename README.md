@@ -1,15 +1,43 @@
 # 🩺 Skin Disease Detector
 
-This project is an end-to-end Deep Learning application to classify skin diseases from images using a trained DNN model and a Flask web interface.
+This project is an end-to-end skin disease classification system built with:
+
+- **Jupyter Notebook**: Training a Deep Neural Network (DNN) model on a skin disease dataset.
+- **Flask Web Application**: Serving the trained model for predictions.
+- **HTML Frontend**: A 2-page interface for users to interact with the classifier.
 
 ---
 
-## 🎯 Project Objective
+## 📚 Table of Contents
 
-To provide a simple web app that allows:
-- Uploading an image of a skin lesion.
-- Predicting the disease type.
-- Displaying results with an option to exit and see a thank you message.
+- [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
+- [Dataset](#dataset)
+- [Model](#model-training)
+- [Flask Application](#flask-application)
+- [HTML Templates](#html-templates)
+- [How To Run](#how-to-run)
+- [Workflow Summery](#workflow-summery)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+
+---
+## 🎯 Project Overview
+
+Skin Disease Detector provides a user-friendly way to identify skin conditions from images.  
+**Workflow:**
+
+1. **Model Training** (in the notebook):
+   - Load a labeled dataset of skin disease images.
+   - Preprocess the data.
+   - Train a DNN classifier.
+   - Save the trained model (`skin_disease_model.h5`).
+
+2. **Flask Application**:
+   - Loads the saved model.
+   - Provides a web interface for uploading images.
+   - Returns predictions.
+   - Shows a thank-you page after prediction.
 
 ---
 
@@ -32,7 +60,16 @@ skin_disease_detector/
 ---
 
 ## 📊 Dataset
+The project uses a **skin disease dataset** containing images labeled by disease type.  
+- Images are preprocessed (resized, normalized).  
+- Labels are one-hot encoded for multiclass classification.
 
+You can use public datasets such as:
+- HAM10000
+- Dermnet
+- Or any other skin disease image dataset.
+
+**Note:** Make sure your dataset directory is correctly referenced in the notebook.
 The dataset contains labeled images of the following skin diseases:
 - Actinic keratoses
 - Basal cell carcinoma
@@ -48,6 +85,14 @@ All images are resized to 224×224 pixels and normalized before training.
 ---
 
 ## 🧠 Model Training (`dnn skin disease dataset.ipynb`)
+
+The Deep Neural Network (DNN) is implemented in Keras.  
+Typical architecture includes:
+
+- **Input Layer** matching image dimensions.
+- **Hidden Layers** with `Dense` layers and ReLU activations.
+- **Dropout Layers** to prevent overfitting.
+- **Output Layer** with softmax activation for multiclass classification.
 
 The notebook performs:
 
