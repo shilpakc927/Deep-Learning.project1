@@ -66,10 +66,11 @@ The notebook performs:
    ```python
    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
    model.fit(train_data, epochs=20, validation_data=val_data)
-
+   ```
 4. **Saving**
+   ```python
    model.save('skin_disease_model.h5')
-   
+   ```
 This saved model is loaded by Flask for predictions.
 
 ---
@@ -143,26 +144,35 @@ This template supports:
 ---
 ## ⚙️ How to Run
 1. **Clone the repository:**
+    ```python
    git clone https://github.com/your-username/skin_disease_detector.git
    cd skin_disease_detector
+     ```
 
-2.**Create a virtual environment:**
+3. **Create a virtual environment:**
+    ```python
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3.**Install dependencies:**  
+    ```
+    
+5. **Install dependencies:**
+     ```python 
     pip install -r requirements.txt
+      ```
 
-4.**Train model (if needed):**
+7. **Train model (if needed):**
    - Open the notebook.
    - Run all cells to create skin_disease_model.h5.
 
-5.**Run Flask app:**
+8. **Run Flask app:**
+     ```python
     python app.py
-
-6.**Open your browser:**
+     ```
+     
+10. **Open your browser:**
+    ```
     http://127.0.0.1:5000/
-
+    ```
 ---
 ## 🧪 Workflow Summary
 ```
